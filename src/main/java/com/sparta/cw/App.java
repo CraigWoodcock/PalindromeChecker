@@ -10,7 +10,7 @@ public class App
        String example3 = "bob";
 
 //        System.out.println(isPalindrome(example1));
-//        getStringbuilderReverse(example1);
+        getStringbuilderReverse(example1);
         getLongestPalindrome(example2);
 
     }
@@ -31,12 +31,12 @@ public class App
         }return false;
     }
 
-//    public static void getStringbuilderReverse(String example1){
-//        StringBuilder sb = new StringBuilder(example1);
-//        StringBuilder rev = sb.reverse();
-//        System.out.println(rev);
-//
-//    }
+    public static void getStringbuilderReverse(String example1){
+        StringBuilder sb = new StringBuilder(example1);
+        StringBuilder rev = sb.reverse();
+        System.out.println(rev);
+
+    }
 
     public static void getLongestPalindrome(String example2){
 
