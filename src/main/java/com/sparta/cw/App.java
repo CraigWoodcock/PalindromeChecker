@@ -31,11 +31,12 @@ public class App
         }return false;
     }
 
-    public static void getStringbuilderReverse(String example1){
+    public static String getStringbuilderReverse(String example1){
         StringBuilder sb = new StringBuilder(example1);
         StringBuilder rev = sb.reverse();
         System.out.println(rev);
 
+        return example1;
     }
 
     public static void getLongestPalindrome(String example2){
